@@ -1,0 +1,73 @@
+.signUp {
+  min-height: 100vh;
+}
+
+.signUpCompo {
+  height: 100%;
+  flex: 1;
+}
+
+.signUpBackButton {
+  height: 40px !important;
+  width: 40px !important;
+}
+
+.signUpForm {
+  min-height: 100%;
+}
+
+.signUpForm h2 {
+  color: var(--color-primary);
+}
+.signUpForm span {
+  color: var(--color-light-text);
+}
+
+.signUpRight {
+  overflow-y: auto;
+  height: 100%;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.signUpFormCompo span {
+  font-size: 13px;
+}
+
+.loginLink {
+  cursor: pointer;
+  color: var(--color-secondary) !important;
+}
+
+.loginLink:hover {
+  border-bottom: 1px solid var(--color-secondary);
+}
+
+.passwordInput {
+  border-right: 0 !important;
+}
+
+.signUpHeader h4 {
+  cursor: pointer;
+  color: var(--color-primary);
+}
+
+.singupLang {
+  border: 1px solid var(--input-border) !important;
+  color: var(--input-color) !important;
+  background-color: var(--input-background) !important;
+  height: 48px !important;
+  width: 100px !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .signUpForm {
+    width: 100% !important;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1400px) {
+  .signUpForm {
+    width: 75% !important;
+  }
+}

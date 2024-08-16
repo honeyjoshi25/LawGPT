@@ -1,0 +1,76 @@
+.homeContainer h1 {
+  font-size: 60px !important;
+  color: var(--color-primary);
+}
+
+.homeContainer h1 span {
+  background: linear-gradient(45deg, var(--color-primary), var(--color-accent));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 60px;
+}
+
+.tabListBox {
+  width: fit-content;
+  background: var(--homeTab-background) !important;
+  border-radius: 0.5rem !important;
+  border: 0 !important;
+  color: #ffffff !important;
+}
+
+.homeBtn {
+  height: 48px !important;
+  width: 48px !important;
+}
+
+.homeIcon {
+  color: var(--color-tertiary) !important;
+}
+
+.homePara {
+  color: var(--color-light-text);
+}
+.feature-card {
+  background: var(--homeCard-bg);
+  border-radius: 10px;
+  color: var(--color-text);
+  height: 100%;
+}
+
+.feature-card h5 {
+  color: var(--color-primary);
+}
+
+.feature-card p {
+  color: var(--color-light-text);
+}
+.feature-card img {
+  width: 60%;
+}
+
+.feature-card.secondCardrow img {
+  width: 40%;
+}
+
+@media only screen and (max-width: 600px) {
+  .homeContainer h1 {
+    font-size: 40px !important;
+    width: 100% !important;
+  }
+  .homeContainer h1 span {
+    font-size: 40px !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .aiDraftingInput {
+    width: 100% !important;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1200px) {
+  .homeContainer h1 {
+    width: 100% !important;
+  }
+}

@@ -1,0 +1,44 @@
+.aboutUs {
+  min-height: 100vh;
+}
+
+.aboutUsHeader {
+  height: 300px;
+  color: var(--color-primary);
+}
+
+.aboutUsHeader h1 {
+  font-size: 60px !important;
+}
+
+.aboutusCard {
+  background: var(--aboutus-cards);
+}
+
+.cardHeader h4 {
+  color: var(--color-primary);
+}
+
+.cardBody {
+  text-align: justify;
+  font-weight: 500;
+  color: var(--color-light-text);
+}
+
+.aboutUsIcon {
+  color: var(--color-secondary) !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .aboutUsHeader h1 {
+    font-size: 40px !important;
+    width: 100% !important;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1160px) {
+  .aboutUsHeader h1 {
+    font-size: 40px !important;
+    width: 75% !important;
+  }
+}

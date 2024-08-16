@@ -1,0 +1,264 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+  --color-primary: #011640;
+  --color-secondary: #4a90e2;
+  --color-tertiary: #ffffff;
+  --color-background: #eef3fc;
+  --color-text: #011640;
+  --color-light-text: #6f6f7b;
+  --color-accent: #00d4ff;
+  --color-light-background: #ffffff;
+  --color-dark-text: #011640;
+  /* --color-dark-text: #d3d3d3; */
+  --font-family: "Poppins", sans-serif;
+  --input-background: transparent;
+  --input-border: #011640;
+  --input-color: #011640;
+  /* --button-color: rgba(244, 244, 244, 1); */
+  --button-color: #ffffff;
+  --button-background: #011640;
+  --history-background: #f9f9f9;
+  --history-hover: #ececec;
+  --resources-background: #011640;
+  --resources-card: rgba(229, 238, 255, 0.2);
+  --aboutus-cards: #eef3fc;
+  --homeTab-background: #eef3fc;
+  --homeTab-selectedBg: #011640;
+  --header-backgroud: #011640;
+  --scrollbar-bg: #f1f1f1;
+  --scrollbar-thumb: #4a90e2;
+  --scrollbar-hover: #3a7dc2;
+  --homeCard-bg: rgba(229, 238, 255, 0.3);
+}
+
+[data-theme="dark"] {
+  --color-primary: #ffffff;
+  --color-background: #eef3fc;
+  --color-text: #011640;
+  --color-light-text: #6f6f7b;
+  --color-light-background: #121212;
+  --color-dark-text: #d3d3d3;
+  --color-secondary: #4a90e2;
+  --color-tertiary: #b8c5eb;
+  --input-background: transparent;
+  --input-color: #ececec;
+  --input-border: #9b9b9b;
+  --button-color: #ececec;
+  --button-background: #1d2838;
+  --font-family: "Poppins", sans-serif;
+  --history-background: #212121;
+  --history-hover: #171717;
+  --resources-background: transparent;
+  --resources-card: linear-gradient(140deg, #1d2838, rgba(29, 40, 56, 0.5));
+  --aboutus-cards: linear-gradient(
+    140deg,
+    rgba(29, 40, 56, 0.5),
+    rgba(29, 40, 56, 0.25)
+  );
+  --homeTab-background: linear-gradient(140deg, #1d2838, rgba(29, 40, 56, 0.5));
+  --homeTab-selectedBg: #4a90e2;
+  --header-backgroud: #1d2838;
+  --scrollbar-bg: #1d2838;
+  --scrollbar-thumb: #4a90e2;
+  --scrollbar-hover: #3a7dc2;
+  --homeCard-bg: linear-gradient(140deg, #1d2838, rgba(29, 40, 56, 0.5));
+}
+
+html {
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-family);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  transition: opacity 0.5s ease-in-out;
+}
+
+code {
+  font-family: var(--font-family);
+}
+
+.link {
+  text-decoration: none;
+  color: inherit !important;
+}
+
+.bor {
+  border: 1px solid red;
+}
+
+.MuiButtonBase-root,
+.MuiButton-root {
+  text-transform: capitalize !important;
+  font-family: inherit !important;
+  border-radius: 0.5rem !important;
+  min-width: 0 !important;
+}
+
+.MuiTypography-root,
+.MuiOutlinedInput-notchedOutline,
+.MuiTabPanel-root,
+.MuiTab-root {
+  font-family: inherit !important;
+  /* color: var(--color-light-background) !important; */
+}
+
+.MuiSvgIcon-root {
+  color: var(--input-color);
+}
+
+.MuiSvgIcon-root {
+  color: inherit !important;
+}
+
+.MuiTypography-root {
+  font-size: 13px !important;
+}
+
+.MuiTab-root {
+  color: var(--color-primary) !important;
+}
+
+.MuiTab-root.Mui-selected {
+  background: var(--homeTab-selectedBg) !important;
+  color: #ffffff !important;
+}
+
+.css-1aquho2-MuiTabs-indicator {
+  height: 0 !important;
+  background-color: transparent !important;
+}
+
+/* .authInput,
+.homeInput,
+.authInputGroup,
+.homeInputGroup {
+  height: 48px;
+  border: 1px solid var(--color-primary) !important;
+  fill: var(--color-primary) !important;
+  color: var(--color-primary) !important;
+  background: transparent;
+}
+.authInput:focus,
+.homeInput:focus {
+  box-shadow: none !important;
+}
+.authInput::placeholder,
+.homeInput::placeholder {
+  color: #011640 !important;
+} */
+.countrySelect {
+  height: 48px !important;
+  background-color: var(--input-background);
+  border: 1px solid var(--input-border);
+  color: var(--input-color) !important;
+  font-size: 14px !important;
+  padding: 0 !important;
+}
+
+.ReactFlagsSelect-module_selectBtn__19wW7 {
+  border: 0 !important;
+  height: 100%;
+  width: 100%;
+  padding: 0.5rem !important;
+}
+
+.ReactFlagsSelect-module_selectBtn__19wW7 span {
+  color: var(--input-color) !important;
+}
+
+.form-control {
+  height: 48px !important;
+  background-color: var(--input-background);
+  border: 1px solid var(--input-border);
+  color: var(--input-color) !important;
+  font-size: 14px !important;
+}
+.input-group-text {
+  background-color: var(--input-background);
+  border: 1px solid var(--input-border);
+  color: var(--input-color) !important;
+  cursor: pointer;
+}
+.form-control::placeholder {
+  color: var(--input-color) !important;
+}
+.form-control:focus {
+  box-shadow: none !important;
+  background-color: var(--input-background);
+}
+
+.input-group.text-end {
+  flex-direction: row-reverse;
+}
+
+.input-group.text-start {
+  flex-direction: row;
+}
+
+.MuiInputBase-root {
+  height: 48px !important;
+  background-color: var(--input-background);
+  border: 1px solid var(--input-border);
+  color: var(--input-color);
+  font-size: 14px !important;
+}
+.MuiMenuItem-root {
+  color: var(--input-color) !important;
+  font-size: 14px !important;
+}
+.MuiInputBase-root.MuiOutlinedInput-root {
+  color: var(--input-color) !important;
+}
+.MuiSwitch-track {
+  background-color: rgb(7 50 95) !important;
+}
+
+.MuiButton-contained {
+  background-color: var(--button-background) !important;
+  color: var(--button-color) !important;
+  height: 52px;
+}
+
+.MuiOutlinedInput-notchedOutline {
+  border: 0 !important;
+}
+
+.MuiButton-outlined {
+  border-color: var(--color-primary) !important;
+  color: var(--color-primary) !important;
+  min-height: 40px !important;
+}
+
+.mainContainer {
+  flex: 1;
+  height: 100%;
+}
+
+.card {
+  border: 0 !important;
+  border-radius: 0.5rem;
+  height: 100%;
+}
+
+.MuiAccordionDetails-root p {
+  color: var(--color-light-text) !important;
+  font-size: 15px !important;
+}
+
+.MuiAccordion-root {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.06) !important;
+  border-color: none !important;
+  position: inherit !important;
+}
+
+.MuiAccordionSummary-root.Mui-expanded {
+  color: var(--color-secondary) !important;
+  font-weight: bold !important;
+}

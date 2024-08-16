@@ -1,0 +1,40 @@
+.documentCreated {
+  color: rgb(113 177 244);
+  font-size: 13px;
+}
+.documentBtn {
+  background-color: rgb(7 50 95) !important;
+  color: rgb(0 238 255) !important;
+  height: 25px !important;
+  width: fit-content !important;
+  font-size: 12px !important;
+}
+.documentHr {
+  background-color: rgb(11 75 142);
+}
+.darkContent {
+  background-color: #07325f80;
+}
+.brightContent {
+  background-color: #fff;
+  color: rgb(7 50 95);
+}
+.bionicReading {
+  font-weight: bold;
+}
+
+.documentContent {
+  white-space: pre-wrap;
+  font-size: 14px;
+  text-align: justify;
+}
+.documentViewIcon {
+  height: 20px !important;
+  color: rgb(0 238 255) !important;
+}
+.documentSwitches span {
+  font-size: 13px;
+}
+.documentSearch {
+  height: 38px !important;
+}

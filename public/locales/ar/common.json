@@ -1,0 +1,24 @@
+{
+  "header": {
+    "home": "Home",
+    "company": "شركة",
+    "resources": "موارد",
+    "aboutUs": "معلومات عنا",
+    "faqs": "الأسئلة الشائعة",
+    "login": "تسجيل الدخول",
+    "logout": "تسجيل خروج",
+    "arabic": "عربي",
+    "english": "English",
+    "darkMode": "الوضع المظلم",
+    "lightMode": "وضع الضوء",
+    "wkeel": "وكيل",
+    "features": "سمات",
+    "search": "بحث الذكاء الاصطناعي",
+    "drafting": "مشروع منظمة العفو الدولية"
+  },
+  "footer": {
+    "privacyPolicy": "سياسة الخصوصية",
+    "support": "support@wkeel.ai",
+    "wkeel": "وكيل"
+  }
+}

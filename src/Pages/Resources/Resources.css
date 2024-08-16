@@ -1,0 +1,63 @@
+.resources {
+  min-height: 100vh;
+}
+
+.resourcesHeader {
+  height: 300px;
+  color: var(--color-primary);
+}
+
+.resourcesHeader h1 {
+  font-size: 60px !important;
+}
+
+.resourcesHeader h6 {
+  color: var(--color-light-text);
+}
+
+.resourcesContainer {
+  background: var(--resources-background);
+}
+
+.resourcesCard {
+  background: var(--resources-card);
+  color: var(--color-light-background);
+  height: 100%;
+}
+
+.resourcesCard h5 {
+  color: var(--color-primary);
+}
+
+.resourcesCard p {
+  font-size: 13px;
+  text-align: justify;
+  color: var(--color-tertiary);
+}
+
+.resourcesContainer .container::-webkit-scrollbar {
+  height: 5px;
+}
+
+.resourcesContainer .container::-webkit-scrollbar-track {
+  background: var(--scrollbar-bg) !important;
+  border-radius: 10px;
+}
+
+.resourcesContainer .container::-webkit-scrollbar-thumb {
+  background: var(--scrollbar-thumb) !important;
+  border-radius: 10px;
+}
+
+.resourcesContainer .container::-webkit-scrollbar-thumb:hover {
+  background: var(--scrollbar-hover) !important; /* Darker shade on hover */
+}
+
+@media only screen and (max-width: 600px) {
+  .resourcesHeader h1 {
+    font-size: 40px !important;
+  }
+  .resourcesHeader h6 {
+    width: 100% !important;
+  }
+}

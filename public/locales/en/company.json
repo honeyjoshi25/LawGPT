@@ -1,0 +1,32 @@
+{
+  "docTitle": "Company",
+  "header": "Company",
+  "introTitle": "Reorganising the legal industry",
+  "introText": "With the help of our AI-integrated platform, you can streamline your whole legal process, increase access to justice, and take advantage of the ways that the legal landscape is evolving.",
+  "accordion": {
+    "lawyers": {
+      "summary": "01 Lawyers and Legal Professionals",
+      "details": "With the help of our AI-powered legal technology solution, you may quickly and easily access MENA-wide laws, rules, and legal information. In addition to saving time on case strategy, creating simple template contracts will help you organise your workflow. Spend less time on research."
+    },
+    "students": {
+      "summary": "02 Students and Professors",
+      "details": "Boost your legal studies with our AI-powered tool and get an advantage. Get MENA area laws, rules, and legal information at your fingertips. Additionally, our programme creates simple template contracts, giving you useful advice on how to design contracts."
+    },
+    "business": {
+      "summary": "03 Business Owners",
+      "details": "Make easy work of navigating the legal landscape with our AI-powered tool. Quickly and effectively obtain legal information, rules, and regulations pertaining to your business in the MENA region. Create rudimentary template contracts as well to assist you in handling business-related legal matters without having to pay for pricey legal advice."
+    },
+    "managers": {
+      "summary": "04 Managers in Large Corporations",
+      "details": "With the help of our AI-powered legal technology tool, make sure regulations are met. Quickly and effectively access MENA region laws, rules, and legal information. Additionally, our application creates simple template contracts, which lowers the risk of non-compliance and assists you in managing the legal elements of your business."
+    }
+  },
+  "designedWithYouInMind": "Designed with your needs in mind",
+  "professions": {
+    "lawyers": "Lawyers, Law Offices, and Legal Professionals",
+    "managers": "Managers & C-Level Executives (in medium-sized businesses)",
+    "founders": "Founders & SME’s",
+    "students": "Law Students /Professors",
+    "counsels": "Legal departments and in-house counsel in the public and private sectors"
+  }
+}

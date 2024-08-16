@@ -1,0 +1,42 @@
+export const ResourcesData = [
+  {
+    title: "Transparency",
+    desc: "We pledge to be transparent and unambiguous regarding the operation of our AI. In order to empower you to make well-informed decisions regarding utilising our product, we make an effort to clearly describe our technology.",
+  },
+  {
+    title: "Data security and privacy",
+    desc: "Your information is valuable to us. To guarantee the security of your information, we follow stringent privacy and data protection guidelines. We never share your information without your permission; we only use it to enhance our offerings.",
+  },
+  {
+    title: "Fairness",
+    desc: "We support treating everyone fairly and equally. Our AI is built to be impartial and give every user, regardless of identity or background, the same quality of service.",
+  },
+  {
+    title: "Dependability and Security",
+    desc: "Our AI's dependability and security are our top priorities. To make sure our technology works as intended and doesn't hurt people, we test and develop it constantly.",
+  },
+  {
+    title: "Accountability",
+    desc: "We own the liability for our AI. We promise to take the necessary steps to improve our technology and learn from any mistakes it may have made. You can never be sure of a conclusion; human assessment and decision-making are always necessary.",
+  },
+  {
+    title: "Empowerment of Users",
+    desc: "Our goal with AI is to empower our users. Our technology is not meant to take the role of human judgement; rather, it is meant to improve your abilities and assist you in reaching your objectives.",
+  },
+  {
+    title: "Observance of Regulations",
+    desc: "We abide by all applicable AI-related rules and regulations. We pledge to keep abreast of legal requirements and modify our procedures as needed.",
+  },
+  {
+    title: "Continuous Learning",
+    desc: "We think that improvement and learning have great power. In order to improve our product, we're dedicated to constantly learning from the performance of our AI and user input.",
+  },
+  {
+    title: "Adherence to human rights",
+    desc: "Respecting human rights is something we're devoted to. The privacy and freedom of expression that are essential human rights are respected in the creation and application of our AI.",
+  },
+  {
+    title: "Advantageous to society",
+    desc: "We work hard to make sure society gains from our AI. Our goal is to employ technology to address significant issues and advance everyone's well-being.",
+  },
+];

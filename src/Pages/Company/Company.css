@@ -1,0 +1,59 @@
+.company {
+  min-height: 100vh;
+}
+
+.companyHeader {
+  position: relative;
+  height: 300px;
+  color: #ffffff;
+  background: url("../../Assets/Backgroud/companyBg.png") no-repeat center
+    center;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.companyHeader::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(1, 22, 64, 0.5);
+  backdrop-filter: blur(3px);
+  z-index: 1;
+}
+
+.companyHeader h1 {
+  font-size: 60px !important;
+  z-index: 2;
+  position: relative;
+}
+
+.companyIntro h1,
+.companyH5 {
+  color: var(--color-primary);
+}
+
+.companyIntro p {
+  text-align: justify;
+  color: var(--color-light-text);
+}
+
+.companySideImg img {
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+}
+
+.companyProfessionIcon {
+  background-color: var(--header-backgroud);
+  color: var(--color-background);
+  height: 40px;
+  width: 40px;
+}
+
+.companyProfession span {
+  font-weight: 600;
+  font-size: 14px;
+  color: var(--color-light-text);
+}

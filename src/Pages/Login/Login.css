@@ -1,0 +1,71 @@
+.login {
+  height: 100vh;
+}
+
+.loginBackButton {
+  height: 40px !important;
+  width: 40px !important;
+}
+
+.loginCompo {
+  flex: 1;
+  height: 100%;
+}
+
+.loginFormCompo hr {
+  height: 2px;
+  opacity: 1;
+  background-color: var(--color-primary) !important;
+}
+
+.loginFormCompo span {
+  color: var(--color-light-text);
+  font-size: 13px;
+}
+
+.loginForm h2 {
+  color: var(--color-primary);
+}
+
+.loginForm span {
+  color: var(--color-light-text);
+}
+
+.recoverPassLink {
+  cursor: pointer;
+  color: var(--color-secondary) !important;
+  font-weight: bold;
+}
+
+.recoverPassLink:hover {
+  border-bottom: 1px solid var(--color-secondary);
+}
+
+.passwordInput {
+  border-right: 0 !important;
+}
+
+.loginHeader h4 {
+  color: var(--color-primary);
+  cursor: pointer;
+}
+
+.loginLang {
+  border: 1px solid var(--input-border) !important;
+  color: var(--input-color) !important;
+  background-color: var(--input-background) !important;
+  height: 48px !important;
+  width: 100px !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .loginForm {
+    width: 100% !important;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1400px) {
+  .loginForm {
+    width: 75% !important;
+  }
+}

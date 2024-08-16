@@ -1,0 +1,13 @@
+.mainFooter span:hover {
+  border-bottom: 2px solid var(--color-secondary) !important;
+  color: var(--color-secondary);
+}
+
+.mainFooter {
+  margin-top: auto;
+  color: var(--color-primary);
+}
+
+.footerCompo {
+  border-top: 2px solid var(--color-primary);
+}

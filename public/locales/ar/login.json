@@ -1,0 +1,20 @@
+{
+  "docTitle": "تسجيل الدخول",
+  "wkeel": "وكيل",
+  "welcomeBack": "مرحبًا بعودتك.",
+  "loginIntoYourAccount": "تسجيل الدخول إلى حسابك",
+  "orContinueWith": "أو الاستمرار مع",
+  "emailPlaceholder": "بريد إلكتروني",
+  "passwordPlaceholder": "كلمة المرور",
+  "recoverPassword": "إستعادة كلمة المرور",
+  "logIn": "تسجيل الدخول",
+  "dontHaveAccount": "ليس لديك حساب؟",
+  "signUp": "اشتراك",
+  "errors": {
+    "emailRequired": "عنوان البريد الإلكتروني مطلوب.",
+    "emailInvalid": "القيمة ليست عنوان بريد إلكتروني صالحًا.",
+    "passwordRequired": "كلمة المرور مطلوبة."
+  },
+  "arabic": "عربي",
+  "english": "English"
+}

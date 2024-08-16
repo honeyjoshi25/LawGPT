@@ -1,0 +1,20 @@
+{
+  "docTitle": "Log In",
+  "wkeel": "Wkeel",
+  "welcomeBack": "Welcome Back.",
+  "loginIntoYourAccount": "Login into your account",
+  "orContinueWith": "or continue with",
+  "emailPlaceholder": "Email",
+  "passwordPlaceholder": "Password",
+  "recoverPassword": "Recover Password",
+  "logIn": "Log In",
+  "dontHaveAccount": "Don't have an account?",
+  "signUp": "Sign up",
+  "errors": {
+    "emailRequired": "Email address is required.",
+    "emailInvalid": "The value is not a valid email address.",
+    "passwordRequired": "The password is required."
+  },
+  "arabic": "عربي",
+  "english": "English"
+}

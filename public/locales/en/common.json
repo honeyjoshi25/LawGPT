@@ -1,0 +1,24 @@
+{
+  "header": {
+    "home": "Home",
+    "company": "Company",
+    "resources": "Resources",
+    "aboutUs": "About Us",
+    "faqs": "FAQs",
+    "login": "Log in",
+    "logout": "Log out",
+    "arabic": "عربي",
+    "english": "English",
+    "darkMode": "Dark Mode",
+    "lightMode": "Light Mode",
+    "wkeel": "Wkeel",
+    "features": "Features",
+    "search": "AI Search",
+    "drafting": "AI Draft"
+  },
+  "footer": {
+    "privacyPolicy": "Privacy Policy",
+    "support": "support@wkeel.ai",
+    "wkeel": "Wkeel"
+  }
+}
