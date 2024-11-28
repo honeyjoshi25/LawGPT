@@ -11,7 +11,6 @@ import { AboutUs } from "./Pages/AboutUs/AboutUs";
 import { Company } from "./Pages/Company/Company";
 import { Resources } from "./Pages/Resources/Resources";
 import { useContext, useEffect } from "react";
-import { Chatbot } from "./Pages/ChatBot/Chatbot";
 import { HeaderContext } from "./Context/Context";
 
 function App() {
@@ -28,7 +27,6 @@ function App() {
         <Route path="/signup" element={<SignUp />} />
         <Route path="/recover-password" element={<RecoverPassword />} />
         <Route path="/" element={<Home />} />
-        <Route path="/ai/:type" element={<Chatbot />} />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         <Route path="/faqs" element={<FAQs />} />
         <Route path="/about-us" element={<AboutUs />} />
